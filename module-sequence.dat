@@ -3,7 +3,6 @@ assertion
 oop
 utils
 data
-ajax
 table
 event
 templating
@@ -16,5 +15,4 @@ basic-widgets
 common-widgets
 asset
 grunt-tools
-cli-tools
 framework
