@@ -1,0 +1,1 @@
+Asset management module, to replace giant-asset later.

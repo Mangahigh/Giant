@@ -1,0 +1,32 @@
+{
+  "name": "giant-asset2",
+  "description": "Asset management",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "npm": "^3.0.0"
+  },
+  "dependencies": {
+    "giant": "0.4.0",
+    "q": "1.4.1"
+  },
+  "devDependencies": {
+    "giant-grunt-tools": "0.4.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-karma": "^0.12.1",
+    "karma": "^0.13.10",
+    "karma-phantomjs-launcher-nonet": "^0.1.3",
+    "karma-qunit": "^0.1.5",
+    "phantomjs": "^1.9.18",
+    "phantomjs-function-bind-polyfill": "git://github.com/dandean/phantomjs-function-bind-polyfill.git",
+    "qunitjs": "^1.19.0"
+  },
+  "files": [
+    "lib",
+    "src",
+    "manifest.json"
+  ],
+  "main": "lib/asset2.js"
+}

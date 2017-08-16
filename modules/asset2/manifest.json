@@ -1,0 +1,17 @@
+{
+  "default": {
+    "assets": {
+      "js": [
+        "src/namespace.js",
+        "src/Manifest.def.js",
+        "src/Asset.def.js",
+        "src/AssetCollection.def.js",
+        "src/JsAsset.def.js",
+        "src/CssAsset.def.js",
+        "src/CssPrintAsset.def.js",
+        "src/ManifestAsset.def.js",
+        "src/exports.js"
+      ]
+    }
+  }
+}
