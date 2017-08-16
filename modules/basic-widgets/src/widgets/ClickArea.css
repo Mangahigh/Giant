@@ -1,0 +1,7 @@
+.ClickArea.widget-enabled {
+    cursor: pointer;
+}
+
+.ClickArea.widget-disabled {
+    cursor: default;
+}

@@ -1,0 +1,19 @@
+{
+  "main": {
+    "assets": {
+      "js": [
+        "src/namespace.js",
+        "src/GruntProxy.def.js",
+        "src/GruntTask.def.js",
+        "src/GruntTaskCollection.def.js",
+        "src/AliasTask.def.js",
+        "src/MultiTask.def.js",
+        "src/MultiTaskCollection.def.js",
+        "src/TaskConfig.def.js",
+        "src/GruntConfig.def.js",
+        "src/GruntPlugin.def.js",
+        "src/exports.js"
+      ]
+    }
+  }
+}

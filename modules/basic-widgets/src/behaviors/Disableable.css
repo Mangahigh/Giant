@@ -1,0 +1,9 @@
+/* reducing opacity for all top-level disabled widgets */
+
+.Disableable.widget-disabled {
+    opacity: 0.5;
+}
+
+.Disableable.widget-disabled .Disableable.widget-disabled {
+    opacity: initial;
+}

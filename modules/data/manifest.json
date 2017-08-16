@@ -1,0 +1,31 @@
+{
+  "main": {
+    "assets": {
+      "js": [
+        "src/namespace.js",
+        "src/utils/DataUtils.def.js",
+        "src/data/Hash.def.js",
+        "src/data/Dictionary.def.js",
+        "src/data/StringDictionary.def.js",
+        "src/data/Collection.def.js",
+        "src/data/OrderedList.def.js",
+        "src/data/OrderedStringList.def.js",
+        "src/data/Set.def.js",
+        "src/data/Link.def.js",
+        "src/data/ValueLink.def.js",
+        "src/data/OpenChain.def.js",
+        "src/tree/Path.def.js",
+        "src/tree/KeyValuePattern.def.js",
+        "src/tree/Query.def.js",
+        "src/tree/TreeWalker.def.js",
+        "src/tree/IterativeTreeWalker.def.js",
+        "src/tree/RecursiveTreeWalker.def.js",
+        "src/tree/Tree.def.js",
+        "src/data/collections/ArrayCollection.def.js",
+        "src/data/collections/DateCollection.def.js",
+        "src/data/collections/StringCollection.def.js",
+        "src/exports.js"
+      ]
+    }
+  }
+}

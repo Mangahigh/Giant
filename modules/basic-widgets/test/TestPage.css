@@ -1,0 +1,8 @@
+.TestPage .ClickArea {
+    height: 30px;
+}
+
+.TestPage .Image {
+    box-sizing: border-box;
+    max-width: 100%;
+}

@@ -1,0 +1,34 @@
+{
+  "main": {
+    "assets": {
+      "js": [
+        "src/namespace.js",
+        "src/globals/entityEventSpace.def.js",
+        "src/cache/config.def.js",
+        "src/cache/entities.def.js",
+        "src/cache/index.def.js",
+        "src/events/EntityChangeEvent.def.js",
+        "src/keys/EntityKey.def.js",
+        "src/keys/AttributeKey.def.js",
+        "src/keys/DocumentKey.def.js",
+        "src/keys/DocumentKeyCollection.def.js",
+        "src/keys/FieldKey.def.js",
+        "src/keys/ItemKey.def.js",
+        "src/keys/ReferenceItemKey.def.js",
+        "src/entities/Entity.def.js",
+        "src/entities/Attribute.def.js",
+        "src/entities/Document.def.js",
+        "src/entities/Field.def.js",
+        "src/entities/CollectionField.def.js",
+        "src/entities/OrderedCollectionField.def.js",
+        "src/entities/Item.def.js",
+        "src/binding/HandlerSpawner.def.js",
+        "src/binding/ContentHandlerSpawner.def.js",
+        "src/binding/StrictHandlerSpawner.def.js",
+        "src/binding/DelegateHandlerSpawner.def.js",
+        "src/binding/EntityBound.def.js",
+        "src/exports.js"
+      ]
+    }
+  }
+}

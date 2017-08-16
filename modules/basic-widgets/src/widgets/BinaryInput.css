@@ -1,0 +1,14 @@
+.BinaryInput {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.BinaryInput.widget-disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.BinaryInput:focus {
+    outline: 0;
+}

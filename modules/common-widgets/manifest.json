@@ -1,0 +1,66 @@
+{
+  "main": {
+    "assets": {
+      "js": [
+        "src/namespace.js",
+        "src/utils/BinaryState.def.js",
+        "src/utils/DocumentBody.def.js",
+        "src/behaviors/BinaryStateful.def.js",
+        "src/behaviors/Disableable.def.js",
+        "src/behaviors/Highlightable.def.js",
+        "src/behaviors/Expandable.def.js",
+        "src/behaviors/Editable.def.js",
+        "src/behaviors/EntityWidget.def.js",
+        "src/behaviors/Popup.def.js",
+        "src/behaviors/AlignedPopup.def.js",
+        "src/behaviors/DataListItem.def.js",
+        "src/behaviors/Option.def.js",
+        "src/behaviors/OptionList.def.js",
+        "src/behaviors/FieldBound.def.js",
+        "src/widgets/utils/ResizeWatcher.def.js",
+        "src/widgets/utils/HotKeyWatcher.def.js",
+        "src/widgets/Label.def.js",
+        "src/widgets/HtmlLabel.def.js",
+        "src/widgets/DataLabel.def.js",
+        "src/widgets/ItemDataLabel.def.js",
+        "src/widgets/Hyperlink.def.js",
+        "src/widgets/DataHyperlink.def.js",
+        "src/widgets/Image.def.js",
+        "src/widgets/DataImage.def.js",
+        "src/widgets/DynamicImage.def.js",
+        "src/widgets/DataDynamicImage.def.js",
+        "src/widgets/Button.def.js",
+        "src/widgets/TextButton.def.js",
+        "src/widgets/Dropdown.def.js",
+        "src/widgets/DataDropdown.def.js",
+        "src/widgets/DropdownButton.def.js",
+        "src/widgets/DataDropdownButton.def.js",
+        "src/widgets/List.def.js",
+        "src/widgets/DataList.def.js",
+        "src/widgets/Flow.def.js",
+        "src/widgets/Page.def.js",
+        "src/widgets/form/Input.def.js",
+        "src/widgets/form/TextInput.def.js",
+        "src/widgets/form/DataTextInput.def.js",
+        "src/widgets/form/PasswordInput.def.js",
+        "src/widgets/form/FormField.def.js",
+        "src/widgets/form/Form.def.js",
+        "src/exports.js"
+      ],
+      
+      "css": [
+        "src/behaviors/Popup.css",
+        "src/behaviors/Option.css",
+        "src/widgets/Button.css",
+        "src/widgets/TextButton.css",
+        "src/widgets/List.css",
+        "src/widgets/Dropdown.css",
+        "src/widgets/DropdownButton.css",
+        "src/widgets/DynamicImage.css",
+        "src/widgets/Page.css",
+        "src/widgets/form/Input.css",
+        "src/widgets/form/Form.css"
+      ]
+    }
+  }
+}

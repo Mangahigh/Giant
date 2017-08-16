@@ -1,0 +1,24 @@
+{
+  "name": "giant-cli",
+  "version": "0.4.0",
+  "description": "Command line interface for Giant",
+  "keywords": [
+    "batch",
+    "cli",
+    "modules",
+    "tools"
+  ],
+  "author": "Dan Stocker <dan@kwaia.com>",
+  "copyright": "Copyright (c) 2015-2016 Dan Stocker",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:giantjs/giant-cli.git"
+  },
+  "files": [
+    "scripts"
+  ],
+  "bin": {
+    "giant": "scripts/giant.sh"
+  }
+}

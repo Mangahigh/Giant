@@ -1,0 +1,14 @@
+.TextInput {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.TextInput.widget-disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.TextInput:focus {
+    outline: 0;
+}

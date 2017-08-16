@@ -1,0 +1,72 @@
+.TestListItem > :not(.widget-container) {
+    font-size: 12px;
+}
+
+.TestListItem > .name-container {
+    position: relative;
+}
+
+.TestListItem > .name-container h3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.TestListItem > :not(.widget-container) h3.text-has-content:before {
+    content: '(';
+}
+
+.TestListItem > :not(.widget-container) h3.text-has-content:after {
+    content: ')';
+}
+
+.TestListItem > :not(.widget-container) code {
+    color: blue;
+}
+
+.TestListItem > .attributes-container {
+    font-size: 12px;
+    color: grey;
+}
+
+.TestListItem > .attributes-container .widget-id:before {
+    content: "widgetId:";
+    margin-right: 0.5ex;
+}
+
+.TestListItem > .attributes-container .widget-entity-key:before {
+    content: "entityKey:";
+    margin-right: 0.5ex;
+}
+
+.TestListItem > .widget-container {
+    margin: 0.5em 0;
+}
+
+.TestListItem > .widget-container > .sample-widget {
+    border: 2px dashed red;
+}
+
+.TestListItem > .hint-container:before {
+    content: "hint:";
+    margin-right: 0.5ex;
+}
+
+.TestListItem > .widget-container * {
+    vertical-align: top;
+}
+
+.TestListItem > .widget-container input.input-invalid {
+    color: red;
+}
+
+.TestListItem > .widget-container input + label,
+.TestListItem > .widget-container label + input,
+.TestListItem > .widget-container label + textarea,
+.TestListItem > .widget-container label + select {
+    margin: 0 0 0 0.5em;
+}
+
+.TestListItem .Validatable.input-invalid {
+    color: red;
+}

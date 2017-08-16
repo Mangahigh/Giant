@@ -1,0 +1,8 @@
+<templateSet group="JavaScript">
+  <template name="cljs" value="console.log(JSON.stringify($END$, null, 2));" description="Inserts JSON encoded console log" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,23 @@
+{
+  "name": "giant-development",
+  "version": "0.4.0",
+  "description": "Umbrella package for Giant development, containing all relevant repos as submodules.",
+  "keywords": [
+    "giant",
+    "development",
+    "contribution"
+  ],
+  "author": "Dan Stocker <dan@kwaia.com>",
+  "copyright": "Copyright (c) 2015-2016 Dan Stocker",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:giantjs/giant-development.git"
+  },
+  "engines": {
+    "npm": "^3.0.0"
+  },
+  "scripts": {
+    "postinstall": "giant batch \"npm install\""
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "main": {
+    "assets": {
+      "js": [
+        "src/namespace.js",
+        "srcClassPathParser.def.js",
+        "src/Asset.def.js",
+        "src/Script.def.js",
+        "src/Css.def.js",
+        "src/AssetCollection.def.js",
+        "src/Module.def.js",
+        "src/Manifest.def.js",
+        "src/exports.js"
+      ]
+    }
+  }
+}

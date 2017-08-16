@@ -1,0 +1,9 @@
+<code_scheme name="Default (1)">
+  <option name="FORMATTER_TAGS_ENABLED" value="true" />
+  <XML>
+    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+  </XML>
+  <codeStyleSettings language="JavaScript">
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+  </codeStyleSettings>
+</code_scheme>

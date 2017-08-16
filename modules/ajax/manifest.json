@@ -1,0 +1,15 @@
+{
+  "main": {
+    "assets": {
+      "js": [
+        "src/namespace.js",
+        "src/uri/UriComponent.def.js",
+        "src/uri/UriAuthorityComponent.def.js",
+        "src/uri/UriPathComponent.def.js",
+        "src/uri/UriQueryComponent.def.js",
+        "src/uri/Uri.def.js",
+        "src/exports.js"
+      ]
+    }
+  }
+}

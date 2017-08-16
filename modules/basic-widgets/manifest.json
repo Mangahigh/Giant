@@ -1,0 +1,92 @@
+{
+  "main": {
+    "assets": {
+      "js": [
+        "src/namespace.js",
+        "src/interfaces/Selectable.def.js",
+        "src/utils/StringFilter.def.js",
+        "src/utils/StringFilterCollection.def.js",
+        "src/utils/HotkeyWatcher.def.js",
+        "src/utils/HotkeyEvent.def.js",
+        "src/utils/InputValidityChangeEvent.def.js",
+        "src/utils/InputValueChangeEvent.def.js",
+        "src/utils/SelectableStateChangeEvent.def.js",
+        "src/utils/SelectableValueChangeEvent.def.js",
+        "src/utils/SelectSelectionChangeEvent.def.js",
+        "src/documents/config.def.js",
+        "src/documents/FormDocument.def.js",
+        "src/documents/InputDocument.def.js",
+        "src/documents/NumberValidatorDocument.def.js",
+        "src/documents/OptionDocument.def.js",
+        "src/documents/RegexpValidatorDocument.def.js",
+        "src/documents/StringValidatorDocument.def.js",
+        "src/documents/ValidatorDocument.def.js",
+        "src/behaviors/BinaryState.def.js",
+        "src/behaviors/BinaryStateful.def.js",
+        "src/behaviors/Clickable.def.js",
+        "src/behaviors/Disableable.def.js",
+        "src/behaviors/DomFocusable.def.js",
+        "src/behaviors/DomInputable.def.js",
+        "src/behaviors/DomValuable.def.js",
+        "src/behaviors/Validatable.def.js",
+        "src/behaviors/Formattable.def.js",
+        "src/partials/EntityInputPartial.def.js",
+        "src/partials/EntityListPartial.def.js",
+        "src/partials/EntitySelectPartial.def.js",
+        "src/partials/EntityTagged.def.js",
+        "src/partials/OptionPartial.def.js",
+        "src/partials/SelectableLookupMaintainer.def.js",
+        "src/partials/SelectPartial.def.js",
+        "src/widgets/Application.def.js",
+        "src/widgets/BinaryInput.def.js",
+        "src/widgets/Button.def.js",
+        "src/widgets/ClickArea.def.js",
+        "src/widgets/DataBinaryInput.def.js",
+        "src/widgets/DataHyperlink.def.js",
+        "src/widgets/DataImage.def.js",
+        "src/widgets/DataMultiSelect.def.js",
+        "src/widgets/DataOption.def.js",
+        "src/widgets/DataSingleSelect.def.js",
+        "src/widgets/DataText.def.js",
+        "src/widgets/DataTextInput.def.js",
+        "src/widgets/Hyperlink.def.js",
+        "src/widgets/Image.def.js",
+        "src/widgets/List.def.js",
+        "src/widgets/LocaleOption.def.js",
+        "src/widgets/LocaleText.def.js",
+        "src/widgets/MultiSelect.def.js",
+        "src/widgets/Option.def.js",
+        "src/widgets/Page.def.js",
+        "src/widgets/SingleSelect.def.js",
+        "src/widgets/TemplateText.def.js",
+        "src/widgets/Text.def.js",
+        "src/widgets/TextInput.def.js",
+        "src/exports.js"
+      ],
+      "css": [
+        "src/behaviors/Disableable.css",
+        "src/widgets/ClickArea.css",
+        "src/widgets/Input.css",
+        "src/widgets/List.css",
+        "src/widgets/Text.css"
+      ]
+    }
+  },
+  "demo": {
+    "assets": {
+      "html": [
+        "test/index.html"
+      ],
+      "js": [
+        "test/TestList.def.js",
+        "test/TestListItem.def.js",
+        "test/TestPage.def.js"
+      ],
+      "css": [
+        "test/TestList.css",
+        "test/TestListItem.css",
+        "test/TestPage.css"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "main": {
+    "assets": {
+      "js": [
+        "src/namespace.js",
+        "src/CliExpectedArgument.def.js",
+        "src/CliExpectedArguments.def.js",
+        "src/CliArgument.def.js",
+        "src/CliOption.def.js",
+        "src/CliFlag.def.js",
+        "src/CliArguments.def.js",
+        "src/Argv.def.js",
+        "src/CliApplication.def.js",
+        "src/NodeScript.def.js",
+        "src/exports.js"
+      ]
+    }
+  }
+}

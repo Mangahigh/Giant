@@ -1,0 +1,41 @@
+{
+  "name": "giantjs.org",
+  "version": "0.1.0",
+  "description": "Website for Giant",
+  "keywords": [
+    "giant",
+    "giantjs",
+    "website"
+  ],
+  "author": "Dan Stocker <dan@kwaia.com>",
+  "copyright": "Copyright (c) 2015-2016 Dan Stocker",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:giantjs/giantjs.org.git"
+  },
+  "dependencies": {
+    "giant-assertion": "~0.4.0",
+    "giant-oop": "~0.4.0",
+    "giant-utils": "~0.4.0",
+    "giant-data": "~0.4.0",
+    "giant-event": "~0.4.0",
+    "giant-routing": "~0.4.0",
+    "giant-entity": "~0.4.0",
+    "giant-templating": "~0.4.0",
+    "giant-i18n": "~0.4.0",
+    "giant-widget": "~0.4.0",
+    "giant-basic-widgets": "^0.1.0",
+    "jquery": "~2.1.0"
+  },
+  "devDependencies": {
+    "giant-asset": "~0.4.0",
+    "giant-grunt-tools": "~0.4.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.1",
+    "grunt-ftp-deploy": "^0.1.10",
+    "grunt-markdown": "^0.7.0",
+    "grunt-string-replace": "^1.2.0"
+  }
+}
