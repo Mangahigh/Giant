@@ -267,6 +267,17 @@
         },
 
         /**
+         * Proxy for add methods, allows proper commenting of @lends in order to allow IDE to correctly identify methods as
+         * static
+         * @param {object} methods Name - value pairs of methods to apply. Values must be functions,
+         * or objects implementing a pair of get and set functions.
+         * @returns {$oop.Base}
+         */
+        addStaticMethods: function (methods) {
+            return this.addMethods(methods);
+        },
+
+        /**
          * Adds a block of private (non-enumerable) read-only methods to the class it's called on.
          * Method names must match the private prefix rule set by `$oop.privatePrefix`.
          * When $oop.testing is on, methods will be placed on the class differently than other properties,
@@ -289,6 +300,30 @@
             self.addProperties.call($oop.Base.getTarget.call(this), methods);
 
             return this;
+        },
+
+        /**
+         * Adds a block of static private (non-enumerable) read-only methods to the class it's called on.
+         * Proxy for add private methods, allows proper commenting of @lends in order to allow IDE to correctly identify
+         * methods as static and private
+         * @param {object} methods Name - value pairs of methods to apply. Values must be functions,
+         * or objects implementing a pair of get and set functions.
+         * @returns {$oop.Base}
+         */
+        addPrivateStaticMethods: function (methods) {
+            return this.addPrivateMethods(methods);
+        },
+
+        /**
+         * Adds a block of protected (non-enumerable) read-only methods to the class it's called on.
+         * Proxy for add private methods, allows proper commenting of @lends in order to allow IDE to correctly identify
+         * methods as private
+         * @param {object} methods Name - value pairs of methods to apply. Values must be functions,
+         * or objects implementing a pair of get and set functions.
+         * @returns {$oop.Base}
+         */
+        addProtectedMethods: function (methods) {
+            return this.addPrivateMethods(methods);
         },
 
         /**
