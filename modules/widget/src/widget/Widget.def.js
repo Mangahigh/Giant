@@ -509,6 +509,32 @@ $oop.postpone($widget, 'Widget', function (ns, className) {
             },
 
             /**
+             * Remove a child if it exists
+             * @param {string} childName
+             * @returns {$widget.Widget}
+             */
+            removeChildByName: function (childName) {
+                if (this.getChild(childName)) {
+                    this.getChild(childName).removeFromParent();
+                }
+
+                return this;
+            },
+
+            /**
+             * Remove a child if it exists
+             * @param {...string} child
+             * @returns {$widget.Widget}
+             */
+            removeChildrenByName: function (child) {
+                for (var i = 0; i < arguments.length; ++i) {
+                    this.removeChildByName(arguments[i]);
+                }
+
+                return this;
+            },
+
+            /**
              * Override method that is called after the widget is removed from the hierarchy.
              * This is the place to de-initialize the widget lifecycle, usually by countering the actions taken in
              * `afterAdd`. Eg. unsubscribing from events.
