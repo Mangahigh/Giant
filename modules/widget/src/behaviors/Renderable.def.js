@@ -193,10 +193,22 @@ $oop.postpone($widget, 'Renderable', function () {
              * @returns {$widget.Renderable}
              */
             removeCssClass: function (cssClass) {
+                return this.removeCssClasses(cssClass);
+            },
+
+            /**
+             *
+             * Removes a set of CSS classes from the instance, modifying both buffer and DOM element.
+             * @param {...string} cssClass
+             * @returns {$widget.Renderable}
+             */
+            removeCssClasses: function (cssClass) {
                 var htmlAttributes = this.htmlAttributes,
                     element = this.getElement();
 
-                htmlAttributes.removeCssClass(cssClass);
+                arguments.forEach(function(cssClass) {
+                    htmlAttributes.removeCssClass(cssClass);
+                });
 
                 if (element) {
                     this._setAttributeProxy(element, 'class', htmlAttributes.cssClasses.toString());
