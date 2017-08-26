@@ -20,5 +20,6 @@
   ],
   "bin": {
     "giant": "scripts/giant.sh"
-  }
+  },
+  "dependencies": {}
 }
