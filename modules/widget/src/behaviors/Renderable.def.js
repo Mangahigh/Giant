@@ -206,7 +206,7 @@ $oop.postpone($widget, 'Renderable', function () {
                 var htmlAttributes = this.htmlAttributes,
                     element = this.getElement();
 
-                arguments.forEach(function(cssClass) {
+                [].forEach.call(arguments, function (cssClass) {
                     htmlAttributes.removeCssClass(cssClass);
                 });
 

@@ -106,7 +106,7 @@
 
         deepEqual(
             $oop.Properties.getPropertyNames(instance).sort(),
-            ["_hello","addConstants","addMethods","addMocks","addPrivate","addPrivateConstants","addPrivateMethods","addPublic","addSurrogate","addTrait","addTraitAndExtend","clearInstanceRegistry","create","elevateMethod","elevateMethods","extend","foo","getBase","getTarget","init","instanceOf","isA","isBaseOf","isMemoized","prepareSurrogates","removeMocks","setInstanceMapper"]
+            ["_hello","addConstants","addMethods","addMocks","addPrivate","addPrivateConstants","addPrivateMethods","addPrivateStaticMethods","addProtectedMethods","addPublic","addStaticMethods","addSurrogate","addTrait","addTraitAndExtend","clearInstanceRegistry","create","elevateMethod","elevateMethods","extend","foo","getBase","getTarget","init","instanceOf","isA","isBaseOf","isMemoized","prepareSurrogates","removeMocks","setInstanceMapper"]
         );
         deepEqual(
             $oop.Properties.getPropertyNames(instance, $oop.Base).sort(),
