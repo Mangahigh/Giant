@@ -421,7 +421,7 @@
             }
         });
 
-        strictEqual(widget.getAdjacentWidget('w11', targetParentElement), widgets[100], "should return widget adjacent to specified widget name");
+        strictEqual(widget.getFollowingWidget('w11', targetParentElement), widgets[100], "should return widget adjacent to specified widget name");
         deepEqual(
             instanceIds.sort(),
             [1, 10, 100].sort(),
@@ -451,8 +451,8 @@
         }, "should raise exception on invalid argument");
 
         widget.addMocks({
-            getAdjacentWidget: function () {
-                ok(true, "should fetch adjacent widget");
+            getFollowingWidget: function () {
+                ok(true, "should fetch following widget");
                 return adjacentWidget;
             },
             afterRender      : function () {
@@ -488,7 +488,7 @@
             targetElement = document.createElement('div');
 
         widget.addMocks({
-            getAdjacentWidget: function () {
+            getFollowingWidget: function () {
                 return undefined;
             },
             afterRender      : function () {
@@ -593,7 +593,7 @@
     });
 
     test("Default content markup template generation", function () {
-        expect(2);
+        expect(1);
 
         var widget = $widget.Widget.create(),
             child = $widget.Widget.create(),
@@ -610,15 +610,6 @@
         $widget.Renderable.addMocks({
             contentMarkupAsTemplate: function () {
                 return template;
-            }
-        });
-
-        $widget.MarkupTemplate.addMocks({
-            setParameterValues: function (contents) {
-                deepEqual(contents, {
-                    foo: child
-                }, "should append content to template");
-                return this;
             }
         });
 

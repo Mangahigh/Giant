@@ -29,6 +29,40 @@ $oop.postpone($widget, 'WidgetCollection', function () {
                 return this.callOnEachItem('toString')
                     .getSortedValues()
                     .join('');
+            },
+
+            /**
+             * Generates the markup for all widgets in the collection, in the order provided by the childOrder.
+             * @param {string[]} [childOrder]
+             * @returns {string}
+             */
+            toSortedString: function (childOrder) {
+                if (childOrder) {
+                    return this.callOnEachItem('toString')
+                        .getSortedValues(function (a, b) {
+                            var indexA = childOrder.indexOf(a),
+                                indexB = childOrder.indexOf(b);
+
+                            console.log(indexA, indexB);
+
+                            if (indexA === -1 && indexB === -1) {
+                                // neither in childOrder - sort by name
+                                return (a === b ? 0 : (a > b ? 1 : -1));
+                            } else if (indexA === -1) {
+                                // B in childOrder
+                                return 1;
+                            } else if (indexB === -1) {
+                                // A in childOrder
+                                return -1;
+                            } else {
+                                // both in childOrder
+                                return (indexA === indexB ? 0 : (indexA > indexB ? 1 : -1));
+                            }
+                        })
+                        .join('');
+                } else {
+                    return this.toString();
+                }
             }
         });
 });

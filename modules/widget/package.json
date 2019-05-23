@@ -1,6 +1,6 @@
 {
   "name": "giant-widget",
-  "version": "0.4.5",
+  "version": "0.4.7",
   "description": "Widget module for Giant",
   "keywords": [
     "widget",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:giantjs/giant-widget.git"
+    "url": "git@github.com:Mangahigh/Giant.git"
   },
   "engines": {
     "npm": "^3.0.0"
