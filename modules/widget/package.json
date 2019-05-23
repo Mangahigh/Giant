@@ -1,6 +1,6 @@
 {
   "name": "giant-widget",
-  "version": "0.4.7",
+  "version": "0.4.8",
   "description": "Widget module for Giant",
   "keywords": [
     "widget",
@@ -41,5 +41,8 @@
   "files": [
     "lib"
   ],
+  "scripts": {
+    "prepublishOnly": "grunt build"
+  },
   "main": "lib/giant-widget.js"
 }

@@ -43,8 +43,6 @@ $oop.postpone($widget, 'WidgetCollection', function () {
                             var indexA = childOrder.indexOf(a),
                                 indexB = childOrder.indexOf(b);
 
-                            console.log(indexA, indexB);
-
                             if (indexA === -1 && indexB === -1) {
                                 // neither in childOrder - sort by name
                                 return (a === b ? 0 : (a > b ? 1 : -1));
