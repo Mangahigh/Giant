@@ -33,7 +33,7 @@
     "giant-transport": "~0.4.0",
     "giant-utils": "~0.4.0",
     "giant-widget": "~0.4.0",
-    "jquery": "^2.1.4"
+    "jquery": "^3.5.0"
   },
   "devDependencies": {}
 }
